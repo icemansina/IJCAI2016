@@ -19,21 +19,21 @@ Download data and put them in ./data folder.
     conda install -c toli lasagne
     ```
 
-2. You can do training/validation/test through this IPython notebook ./Train_validation_test_release.ipynb.    
+2. You can do training/validation/test through this IPython notebook file Train_validation_test_release.ipynb.    
 PS: The demo code use splited cullpdb+profile_6133_filtered for training/validation and then test on CB513 and CASP dataset. You can use whole cullpdb+profile_6133_filtered for training to obtain better performace.
 
-## Progress
+# Progress
 - [x] README for training 
 - [x] README for project settings
 - [x] Dynamic training codes
 - [x] Dynamic evaluation codes
 - [ ] Multi-GPU support
 
-## Acknowledgement
+# Acknowledgement
 
 We thank [Jian Zhou](http://www.princeton.edu/~jzthree/) and [Sheng Wang](http://ttic.uchicago.edu/~wangsheng/) for CASP dataset generation.
 
-## Reference
+# Reference
 If you find this code useful for your research, please cite
 
 ```
