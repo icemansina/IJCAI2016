@@ -1,12 +1,12 @@
 # IJCAI2016
 
 This repository is for the replication of our published paper [Protein Secondary Structure Prediction Using Cascaded Convolutional and Recurrent Neural Networks](https://www.ijcai.org/Proceedings/16/Papers/364.pdf) on IJCAI2016. Our whole pipeline is listed as follows.
-<p align="center"><img width="100%" src="image/pipeline.pdf" /></p>
+<p align="center"><img width="100%" src="image/pipeline.png" /></p>
 
 # Download data
 
-For cb513+profile_split1.npy.gz, cullpdb+profile_6133.npy.gz, cullpdb+profile_6133_filtered.npy.gz, please download from this [website](http://www.princeton.edu/~jzthree/datasets/ICML2014/).
-For CASP10 and CASP11, please download from this [website](https://goo.gl/tjJttR).
+For cb513+profile_split1.npy.gz, cullpdb+profile_6133.npy.gz, cullpdb+profile_6133_filtered.npy.gz, please download from this [website](http://www.princeton.edu/~jzthree/datasets/ICML2014/).    
+For CASP10 and CASP11, please download from this [website](https://goo.gl/tjJttR).     
 Download data and put them in ./data folder.
 
 # Project Settings
