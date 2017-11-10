@@ -5,7 +5,7 @@ This repository is for the replication of our published paper [Protein Secondary
 
 # Download data
 
-For cb513+profile_split1.npy.gz, cullpdb+profile_6133.npy.gz, cullpdb+profile_6133_filtered.npy.gz, please download from this [website](http://www.princeton.edu/~jzthree/datasets/ICML2014/).    
+For cb513+profile_split1.npy.gz, cullpdb+profile_6133_filtered.npy.gz, please download from this [website](http://www.princeton.edu/~jzthree/datasets/ICML2014/).    
 For CASP10 and CASP11, please download from this [website](https://goo.gl/tjJttR).     
 Download data and put them in ./data folder.
 
@@ -19,7 +19,8 @@ Download data and put them in ./data folder.
     conda install -c toli lasagne
     ```
 
-2. You can do training/validation/test through this IPython notebook ./Train_validation_test_release.ipynb. The demo code use splited cullpdb+profile_6133_filtered for training/validation and then test on CB513 and CASP dataset. You can use whole cullpdb+profile_6133_filtered for training to obtain better performace.
+2. You can do training/validation/test through this IPython notebook ./Train_validation_test_release.ipynb.    
+PS: The demo code use splited cullpdb+profile_6133_filtered for training/validation and then test on CB513 and CASP dataset. You can use whole cullpdb+profile_6133_filtered for training to obtain better performace.
 
 ## Progress
 - [x] README for training 
